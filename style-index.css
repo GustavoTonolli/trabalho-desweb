@@ -5,3 +5,59 @@
     list-style: none;
     box-sizing: border-box;
 }
+body {
+    background-color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 12pt;
+}
+
+.main-title {
+    color: white;
+    margin: auto;
+    font-size: 3em;
+    letter-spacing: 1em;
+}
+.main-section {
+    max-width: 1350px;
+    margin: auto;
+
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+@media (max-width: 800px) {
+    .main-header {
+        justify-content: center;
+    }
+}
+.main-menu {
+    width: 100%;
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-link:hover {
+    background-color: white;
+    color: black;
+    padding: .6em 3em;
+    transition: 1.5s;
+}   
+
+.menu-link {
+    padding: .4em 3em;
+    font-size: 1em;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid white;
+    transition: 1.5s;
+}
+.spacement {
+    width: 10%;
+}
