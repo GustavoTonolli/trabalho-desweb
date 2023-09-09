@@ -1,26 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=E, initial-scale=1.0">
+    <meta name="description" content="Marketing Digital, trafego pago, Websites e outros serviços">
+    <meta name="keywords" content="benora, benora digital, marketing">
+    <meta name="author" content="Gustavo Tonolli">
     <title>Benora Digital</title>
-    <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="style-login.css">
+    <script src="https://kit.fontawesome.com/c12fb60221.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section class="main-section">
-        <header class="main-header">
-            <img class="logotipo" src="./img/Design_sem_nome-removebg-preview.png" alt="Logotipo da empresa benora digital" width="15%">
-            <h1 class="main-title">BENORA DIGITAL</h1>
-        </header>
-        <nav>
-            <ul class="main-menu">
-                <li><a class="menu-link" href="servicos.html">Serviços</a></li>
-                <li><a class="menu-link"  href="clientes.html">Clientes</a></li>
-                <li><a class="menu-link"  href="contato.html">Contatos</a></li>
-            </ul>
-        </nav>
-    </section>
-   
-    
+    <section class="container">
+        <section class="content first-content">
+            <section class="first-column">
+                <h2 class="title-primary">Seja bem vindo!</h2>
+                <p class="description description-primary">Para se manter conectado</p>
+                <p class="description description-primary">Faça o login com seu e-mail e senha</p>
+                <button id="signin" class="btn btn-primary">Sign in</button>
+            </section> <!-- first column -->
+            <section class="second-column">
+                <h2 class="title-secondary">Criar Conta</h2>
+                <section class="social-media">
+                   <ul class="list-social-media">
+                       <a class="link-social-media" target="_blank" href="https://www.facebook.com/benora.digital">
+                           <li class="item-social-media">
+                               <i class="fa-brands fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" target="_blank" href="https://linktr.ee/benora.digital">
+                            <li class="item-social-media">
+                                <i class="fa-solid fa-tree"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" target="_blank" href="https://www.instagram.com/benora.digital/">
+                            <li class="item-social-media">
+                                <i class="fa-brands fa-instagram"></i>
+                            </li>
+                        </a>
+                   </ul>
+                </section> <!-- social media end -->
+                <p class="description description-secondary">Ou digite o seu email para cadastrar:</p>
+                <form class="form">
+                    <label class="label-input" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" placeholder="Name">
+                    </label>                  
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Password">
+                    </label>
+                    <button class="btn btn-secondary">Sign up</button>
+                </form>
+            </section> <!-- second column -->
+        </section> <!-- first content -->
+        <section class="content second-content">
+            <section class="first-column">
+                <h2 class="title-primary">Olá, Amigo(a)!</h2>
+                <p class="description description-primary">Digite seus dados</p>
+                <p class="description description-primary">E inicie sua jornada conosco</p>
+                <button id="signup" class="btn btn-primary">sign up</button>
+            </section> <!-- first column -->
+            <section class="second-column">
+                <h2 class="title-secondary">Faça login na Benora Digital</h2>
+                <section class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" target="_blank" href="https://www.facebook.com/benora.digital">
+                            <li class="item-social-media">
+                                <i class="fa-brands fa-facebook-f"></i>
+                             </li>
+                         </a>
+                         <a class="link-social-media" target="_blank" href="https://linktr.ee/benora.digital">
+                             <li class="item-social-media">
+                                 <i class="fa-solid fa-tree"></i>
+                             </li>
+                         </a>
+                         <a class="link-social-media" target="_blank" href="https://www.instagram.com/benora.digital/">
+                             <li class="item-social-media">
+                                 <i class="fa-brands fa-instagram"></i>
+                             </li>
+                         </a>
+                    </ul>
+                 </section> <!-- social media end -->
+                <p class="description description-secondary">Ou utilize a sua conta de e-mail:</p>
+                <form class="form">             
+                    <label class="label-input" for="">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fa-solid fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Password">
+                    </label>
+                    <a class="password" href="#">Esqueceu sua senha?</a>
+                    <a class="btn btn-secondary" href="home.html">Sign in</a>
+                </form>
+            </section> <!-- second column -->
+        </section> <!-- second content -->
+    </section> <!-- container -->
+    <script src="app.js"></script>
 </body>
 </html>

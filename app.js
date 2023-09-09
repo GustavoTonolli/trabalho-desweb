@@ -12,7 +12,3 @@ btnSignin.addEventListener("click", function() {
 btnSignup.addEventListener("click", function() {
     body.className = "sign-up-js";
 })
-function getLogin() {
-    window.location.href = "./index.html"
-    console.log("oi")
-}
