@@ -71,8 +71,9 @@ body {
 }
 
 .menu-link:hover {
-    background-color: white;
+    background-color: #00FF89;
     color: black;
+    border: none;
     padding: .6em 3em;
     transition: 1.5s;
 }
@@ -105,22 +106,37 @@ main {
     display: grid;
     grid-template-columns: 30% 70%;
     margin-top: 4em;
+    border-bottom: 4px solid #00FF89;
+    border-top: 4px solid #CB6CE6;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    
 }
 .service2 {
     display: grid;
     grid-template-columns: 70% 30%;
     margin-top: 4em;
+    border-bottom: 4px solid #00FF89;
+    border-top: 4px solid #CB6CE6;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    
 }
 .service3 {
     display: grid;
     grid-template-columns: 30% 70%;
     margin-top: 4em;
+    border-bottom: 4px solid #00FF89;
+    border-top: 4px solid #CB6CE6;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 .service-desc1 {
     color: white;
     margin-left: auto;
     width: 95%;
     text-align: justify;
+    
 
 }
 .service-desc2 {
