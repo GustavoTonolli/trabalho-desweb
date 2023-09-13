@@ -67,6 +67,7 @@ body {
     display: flex;
     margin-top: 4em;
     justify-content: space-between;
+    list-style: none;
 }
 
 .menu-link:hover {
