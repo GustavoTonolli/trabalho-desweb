@@ -204,3 +204,20 @@ footer {
 .services-list {
     margin-left: 40px;
 }
+.service-link {
+    text-decoration: none;
+    color: white;
+}
+.service-details-container {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    text-align: justify;
+    color: white;
+}
+.service-detail-desc{
+    margin: 2em;
+}
+h3 {
+    text-align: center;
+}
