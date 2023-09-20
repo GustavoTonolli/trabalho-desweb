@@ -222,3 +222,60 @@ footer {
 h3 {
     text-align: center;
 }
+.main-customers {
+    max-width: 900px;
+    margin: auto;
+}
+.customer1 {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-top: 4em;
+    border-bottom: 4px solid #00FF89;
+    border-top: 4px solid #CB6CE6;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    
+}
+.customer2 {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    margin-top: 4em;
+    border-bottom: 4px solid #00FF89;
+    border-top: 4px solid #CB6CE6;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    
+}
+.customer3 {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-top: 4em;
+    border-bottom: 4px solid #00FF89;
+    border-top: 4px solid #CB6CE6;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.customer-desc1 {
+    color: white;
+    margin-left: auto;
+    width: 95%;
+    text-align: justify;
+
+}
+.customer-desc2 {
+    color: white;
+    margin-right: auto;
+    width: 95%;
+    text-align: justify;
+
+}
+.customer-desc3 {
+    color: white;
+    margin-left: auto;
+    width: 95%;
+    text-align: justify;
+
+}
+.logo-customer {
+    width: 100%;
+}
