@@ -94,6 +94,7 @@ main {
 }
 
 #about {
+    margin-top  : 2em;
     font-size: 1.2em;
     letter-spacing: .2em;
     text-align: justify;
