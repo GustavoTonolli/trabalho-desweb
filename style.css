@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+
 * {
     padding: 0;
     border: 0;
@@ -278,4 +280,37 @@ h3 {
 }
 .logo-customer {
     width: 100%;
+}
+.social-media{
+    margin: 1rem;
+}
+.link-social-media:not(:first-child){
+    margin-left: 10px;
+}
+.link-social-media .item-social-media{
+    transition: background-color .7s;
+}
+.link-social-media:hover .item-social-media{
+    background-color: #cb6ce6;
+    color: #fff;
+    background-color: #cb6ce6;
+}
+.list-social-media{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.item-social-media{
+    border: 1px solid #bdc3c7;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #95a5a6;
+}
+.social-desc {
+    margin: 1em;
+    color: white;
+    text-decoration: none;
 }
